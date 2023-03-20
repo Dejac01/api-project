@@ -55,8 +55,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 650px;
-  height: 400px;
+  width: 850px;
+  height: 600px;
   padding-left: 10px;
   margin: 50px auto;
   background-color: Red;
@@ -77,7 +77,7 @@
   text-decoration: none;
 }
 
-.poke-cell {
+.Cards {
   width: 120px;
   height: 120px;
   margin: 10px;
@@ -86,4 +86,8 @@
   border: none;
   border-radius: 5px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16);
+}
+.image1{
+  max-width: 90%;
+  max-height: 90%;
 }
