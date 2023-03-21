@@ -7,7 +7,7 @@ function Stats(props) {
     <div className='Stats'>
       
 <List/>
-<h1>NBA Teams with Team Codes</h1>
+
     </div>
   )
 }
