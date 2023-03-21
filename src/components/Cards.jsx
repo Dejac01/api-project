@@ -5,10 +5,10 @@ function Cards(props) {
     
   return (
     <div className='Cards'>
-<div>{props.team.city}</div>
-<div>{props.team.code}</div>
+{props.team.city}
+{props.team.code}
 <span className={`${props.team.nbaFranchise? "nba" : "not-nba"}`}>
-    nba team
+    NBA Team
 </span>
 <div>
 {props.team.name}
