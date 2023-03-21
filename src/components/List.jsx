@@ -2,7 +2,7 @@ import React from "react";
 import Cards from "../components/Cards";
 import { useState, useEffect } from "react";
 
-function List({ handleOnClick }) {
+function List({ }) {
   const options = {
     method: 'GET',
     headers: {

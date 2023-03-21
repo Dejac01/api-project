@@ -42,7 +42,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    width: 50%;
+    width: 80%;
     height: 80%;
     padding: 10px;
     margin-right: 10px;
@@ -55,8 +55,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 850px;
-  height: 600px;
+  width: 1000px;
+  height: 800px;
   padding-left: 10px;
   margin: 50px auto;
   background-color: Red;
@@ -79,11 +79,12 @@
 
 .Cards {
   width: 120px;
-  height: 120px;
+  height: 150px;
   margin: 10px;
   background-color: #fff;
   background-repeat: no-repeat;
   border: none;
+  display: flex;
   border-radius: 5px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16);
 }
@@ -95,6 +96,8 @@
 .logo{
   width: 2em;
   height: 2em;
+  display: flex;
+  justify-content: center;
 }
 
 .nba {

@@ -10,8 +10,10 @@ function Cards(props) {
 <span className={`${props.team.nbaFranchise? "nba" : "not-nba"}`}>
     nba team
 </span>
+<div>
 {props.team.name}
 <img src={props.team.logo} alt="" className="logo" />
+</div>
     </div>
   )
 }
