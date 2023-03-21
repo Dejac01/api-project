@@ -12,14 +12,15 @@ function List({ handleOnClick }) {
   };
   
 
-  const [teams, setTeam] = useState([]);
+  const [teams, setTeams] = useState([]);
 
   useEffect(() => {
     //Function to Fetch Data
     const getData = async () => {
-    fetch('https://api-nba-v1.p.rapidapi.com/teams?page=0', options)
+    fetch('https://free-nba.p.rapidapi.com/teams', options)
         .then(response => response.json())
-        .then(response => console.log(response))
+        .then((response) => { 
+          setTeams((response.response));})
         .catch(err => console.error(err));
     };
 
@@ -28,8 +29,8 @@ function List({ handleOnClick }) {
 
   return (
     <div className="List">
-      {teams.map((TeamClass, id) => {
-        return <Cards key={id} TeamClass={id} handleOnClick={handleOnClick} />;
+      {teams.map((team, id) => {
+        return <Cards key={id} team={team} handleOnClick={handleOnClick} />;
       })}
     
     </div>
