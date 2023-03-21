@@ -7,6 +7,7 @@ function Cards(props) {
     <div className="Cards">
       <div className="prop">{props.team.code}</div>
       <div className={`${props.team.nbaFranchise ? "nba" : "not-nba"}`}>
+        Nba Franchise
        </div>
       <div>
         {props.team.name}
