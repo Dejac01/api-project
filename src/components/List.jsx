@@ -16,6 +16,7 @@ function List({ handleOnClick }) {
 
   useEffect(() => {
     //Function to Fetch Data
+    //convert response to javascript object using j.son
     const getData = async () => {
     fetch('https://free-nba.p.rapidapi.com/teams', options)
         .then(response => response.json())
@@ -30,7 +31,7 @@ function List({ handleOnClick }) {
   return (
     <div className="List">
       {teams.map((team, id) => {
-        return <Cards key={id} team={team} handleOnClick={handleOnClick} />;
+        return <Cards key={id} team={team}/>;
       })}
     
     </div>

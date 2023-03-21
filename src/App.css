@@ -92,3 +92,16 @@
   max-height: 90%;
 }
 
+.logo{
+  width: 2em;
+  height: 2em;
+}
+
+.nba {
+  visibility: visible;
+}
+
+.not-nba{
+  visibility: hidden;
+}
+
