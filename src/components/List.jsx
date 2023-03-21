@@ -27,7 +27,7 @@ function List({ }) {
 
     getData();
   }, []);
-
+// store the data in the form of key and value pairs by using map
   return (
     <div className="List">
       {teams.map((team, id) => {

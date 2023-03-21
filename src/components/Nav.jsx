@@ -9,7 +9,7 @@ import {Link} from 'react-router-dom'
         <div>Home</div>
       </Link>
       <Link to="/Stats">
-        <div>Stats</div>
+        <div>Teams</div>
       </Link>
     </div>
   );

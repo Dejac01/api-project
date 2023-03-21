@@ -59,7 +59,7 @@
   height: 800px;
   padding-left: 10px;
   margin: 50px auto;
-  background-color: Red;
+  background-color: rgb(213, 6, 6);
   border-radius: 10px;
   box-shadow: 0 14px 45px rgba(0, 0, 0, 0.22), 0 18px 45px rgba(0, 0, 0, 0.22);
 }
@@ -78,7 +78,7 @@
 }
 
 .Cards {
-  width: 120px;
+  width: 150px;
   height: 150px;
   margin: 10px;
   background-color: #fff;
@@ -93,11 +93,11 @@
   max-height: 90%;
 }
 
-.logo{
-  width: 2em;
-  height: 2em;
+.logo, .prop{
+  width: 3em;
+  height: 3em;
   display: flex;
-  
+  justify-content: center;
 }
 
 .nba {
