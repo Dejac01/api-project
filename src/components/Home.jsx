@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 function Home() {
   return (
     <div className='Home'>
-         <h1>NBA App</h1> 
+         <h1>NBA Teams App</h1> 
 
-<img className='image1' src="https://repository-images.githubusercontent.com/200110538/d145dc80-775a-11ea-829a-390d464f83b5" alt="React Image" />
+<img className='image1' src="https://images.squarespace-cdn.com/content/v1/52850829e4b0b6141ccc4fb5/1575867458905-3RRKWENE2YGJ52BBIL6Z/FullSetTeamWithIP-01.gif" alt="React Image" />
 
 
         
