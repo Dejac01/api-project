@@ -66,15 +66,15 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  background-color: black;
+  background-color: white;
   color: black;
   padding: 20px;
   font-size: 2em;
-  background-image: url(https://media3.giphy.com/channel_assets/nba/NFir0YzR4xTg.GIF);
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQagyZwhQ_T-3xXPpv0-TT1rVg9NkOFFwMNxg&usqp=CAU);
 }
 
 .nav a {
-  color: red;
+  color: white;
   text-decoration: none;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -91,8 +91,8 @@
   box-shadow: 0 14px 45px rgb(14, 13, 13), 0 18px 45px rgba(0, 0, 0, 0.22);
 }
 .image1{
-  max-width: 100%;
-  max-height: 100% ;
+  max-width: 80%;
+  max-height: 80% ;
 }
 
 .logo{
@@ -132,5 +132,5 @@ body{
 }
 
 .Header{
-  color: red;
+  color: white;
 }
