@@ -99,6 +99,13 @@
   display: flex;
   justify-content: center;
 }
+.NBA1{
+  width: 4em;
+  height: 4em;
+  display: flex;
+  justify-content: baseline;
+  
+}
 
 .nba {
   visibility: visible;
