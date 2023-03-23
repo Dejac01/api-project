@@ -66,14 +66,15 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  background-color: rgb(225, 34, 34);
+  background-color: black;
   color: black;
-  padding: 10px;
+  padding: 20px;
   font-size: 2em;
+  background-image: url(https://media3.giphy.com/channel_assets/nba/NFir0YzR4xTg.GIF);
 }
 
 .nav a {
-  color: white;
+  color: red;
   text-decoration: none;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -125,5 +126,11 @@
 }
 
 body{
-  background-color: #08336c;
+  background-color: black;
+  
+ 
+}
+
+.Header{
+  color: red;
 }
