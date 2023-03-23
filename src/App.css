@@ -68,13 +68,14 @@
   justify-content: space-between;
   background-color: rgb(225, 34, 34);
   color: black;
-  padding: 15px;
+  padding: 10px;
   font-size: 2em;
 }
 
 .nav a {
   color: white;
   text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .Cards {
@@ -94,8 +95,8 @@
 }
 
 .logo{
-  width: 4em;
-  height: 4em;
+  width: 3.5em;
+  height: 3.5em;
   display: flex;
   justify-content: flex-end;
 }
@@ -124,5 +125,5 @@
 }
 
 body{
-  background-color: #05254f;
+  background-color: #08336c;
 }
