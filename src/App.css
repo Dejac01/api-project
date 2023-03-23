@@ -87,7 +87,7 @@
   border: none;
   display: flex;
   border-radius: 5px;
-  box-shadow: 0 14px 45px rgb(14, 14, 14), 0 18px 45px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 14px 45px rgb(14, 13, 13), 0 18px 45px rgba(0, 0, 0, 0.22);
 }
 .image1{
   max-width: 100%;
