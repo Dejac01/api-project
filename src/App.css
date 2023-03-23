@@ -93,12 +93,20 @@
   max-height: 100% ;
 }
 
-.logo, .prop{
+.logo{
+  width: 3em;
+  height: 3em;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.prop{
   width: 3em;
   height: 3em;
   display: flex;
   justify-content: center;
 }
+
 .NBA1{
   width: 4em;
   height: 4em;
