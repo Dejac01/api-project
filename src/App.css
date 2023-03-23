@@ -82,12 +82,12 @@
   width: 180px;
   height: 150px;
   margin: 10px;
-  background-color: #fff;
+  background-color: #bcb8b8;
   background-repeat: no-repeat;
   border: none;
   display: flex;
   border-radius: 5px;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16);
+  box-shadow: 0 14px 45px rgb(14, 14, 14), 0 18px 45px rgba(0, 0, 0, 0.22);
 }
 .image1{
   max-width: 100%;

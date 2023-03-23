@@ -9,7 +9,7 @@ function Cards(props) {
       <div className={`${props.team.nbaFranchise ? "nba" : "not-nba"}`}>
         <img src='https://www.freepnglogos.com/uploads/nba-logo-png/nba-debate-club-milken-hottest-new-club-the-roar-25.png' alt='' className="NBA1"/>
        </div>
-      <div>
+      <div className="name">
         {props.team.name}
         <div/>
         <div>
